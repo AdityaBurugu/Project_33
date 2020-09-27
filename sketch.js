@@ -99,7 +99,7 @@ function draw() {
               {
                     score = score + 200;
                     particle=null;
-                    if ( count>= 10)  gameState ="end";
+                    if ( count>= 5)  gameState ="end";
 
               }      
               
