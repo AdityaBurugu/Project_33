@@ -92,14 +92,14 @@ function draw() {
               {
                     score = score + 100;
                     particle=null;
-                    if ( count>= 5) gameState ="end";
+                    if ( count>= 10) gameState ="end";
 
               }
               else if (particle.body.position.x < 900 && particle.body.position.x > 601 )
               {
                     score = score + 200;
                     particle=null;
-                    if ( count>= 5)  gameState ="end";
+                    if ( count>= 10)  gameState ="end";
 
               }      
               
